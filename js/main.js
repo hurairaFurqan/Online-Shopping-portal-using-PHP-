@@ -13,8 +13,7 @@
 	});
 	
 	
-	/////////////////////////////////////////
-	
+
 
 	// Products Slick
 	$('.products-slick').each(function() {
@@ -63,7 +62,7 @@
 		});
 	});
 
-	/////////////////////////////////////////
+	
 
 	// Product Main img Slick
 	$('#product-main-img').slick({
