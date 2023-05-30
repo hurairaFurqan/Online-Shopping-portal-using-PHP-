@@ -37,12 +37,7 @@ session_start();
 
     <style>
         #navigation {
-            background: #AAFAC8;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #AAFAC8, #AAFAC8);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #AAFAC8, #AAFAC8);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #FFFFFF;
 
 
         }
@@ -50,12 +45,6 @@ session_start();
         #header {
 
             background: #B592A0;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #B592A0, #B592A0);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #B592A0, #B592A0);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 
         }
 
@@ -63,22 +52,12 @@ session_start();
 
 
             background: #9C7178;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #9C7178, #9C7178);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #9C7178, #9C7178);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
 
         #footer {
             background: #BBC8CA;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #BBC8CA, #BBC8CA);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #BBC8CA, #BBC8CA);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
             color: #1E1F29;
@@ -86,11 +65,6 @@ session_start();
 
         #bottom-footer {
             background: #7474BF;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
@@ -107,22 +81,6 @@ session_start();
 
         }
 
-        .glyphicon {
-            display: inline-block;
-            font: normal normal normal 14px/1 FontAwesome;
-            font-size: inherit;
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .glyphicon-chevron-left:before {
-            content: "\f053"
-        }
-
-        .glyphicon-chevron-right:before {
-            content: "\f054"
-        }
     </style>
 
 </head>
@@ -139,7 +97,7 @@ session_start();
                     <li><a href="#"><i class="fa fa-map-marker"></i>Sydney</a></li>
                 </ul>
                 <ul class="header-links pull-right">
-                    <li><a href="#"><i class="fa fa-inr"></i> AUD</a></li>
+                    <li><a href="#"><i class="fa fa-dollar"></i> AUD</a></li>
                     <li>
                         <?php
                         include "db.php";
@@ -192,7 +150,8 @@ session_start();
                     <div class="col-md-3">
                         <div class="header-logo">
                             <a href="#" class="logo">
-                                <img src="logo.png" alt="Logo" style="width: 70px; height: 70px; margin-right: 5px" />
+                                <img src="logoShop.png" alt="Logo"
+                                    style="width: 70px; height: 70px; margin-right: 5px; border-radius: 25px;" />
                                 <!-- <h1 style="font-style:normal;color: aliceblue;font-family: serif">
                                     Online Shopping
                                 </h1> -->

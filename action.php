@@ -119,7 +119,7 @@ if (isset($_POST["getProduct"])) {
                         <div class='col-md-4 col-xs-6' >
 								<a href='product.php?p=$pro_id'><div class='product'>
 									<div class='product-img'>
-										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
+										<img src='product_images/$pro_image' style='max-height: 170px; object-fit: cover;' alt='' >
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
 											<span class='new'>NEW</span>
@@ -185,7 +185,7 @@ if (isset($_POST["get_seleted_Category"]) || isset($_POST["selectBrand"]) || iss
                         <div class='col-md-4 col-xs-6'>
 								<a href='product.php?p=$pro_id'><div class='product'>
 									<div class='product-img'>
-										<img  src='product_images/$pro_image'  style='max-height: 170px;' alt=''>
+										<img  src='product_images/$pro_image'  style='max-height: 170px; object-fit: cover;' alt=''>
 										<div class='product-label'>
 											<span class='sale'>-30%</span>
 											<span class='new'>NEW</span>
@@ -331,7 +331,7 @@ if (isset($_POST["Common"])) {
                     
                     <div class="product-widget">
 												<div class="product-img">
-													<img src="product_images/' . $product_image . '" alt="">
+													<img src="product_images/' . $product_image . '" alt="" style="object-fit: cover;">
 												</div>
 												<div class="product-body">
 													<h3 class="product-name"><a href="#">' . $product_title . '</a></h3>
@@ -352,7 +352,7 @@ if (isset($_POST["Common"])) {
                 ?>
 
 
-            <?php
+<?php
 
             exit();
         }
@@ -528,4 +528,3 @@ if (isset($_POST["updateCartItem"])) {
         exit();
     }
 }
-?>
